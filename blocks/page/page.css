@@ -6,6 +6,7 @@
   background-color: #2A2C2F;
   font-family: 'Inter', sans-serif;
   color: #FFF;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

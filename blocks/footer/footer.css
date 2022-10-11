@@ -1,7 +1,24 @@
 .footer{
-  width: calc(100% - 2 * 48px);
+  max-width: calc(100% - 2 * 48px);
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (max-width: 790px){
+  .footer {
+    max-width: calc(100% - 2 * 24px);
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 510px){
+  .footer {
+    max-width: calc(100% - 2 * 24px);
+    display: grid;
+    gap: 48px;
+  }
+}
+
+

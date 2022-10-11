@@ -8,3 +8,25 @@
 .place:last-child{
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1035px){
+  .place{
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .place{
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 615px){
+  .place{
+    padding-bottom: 50px;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
