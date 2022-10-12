@@ -23,7 +23,14 @@
   }
 }
 
-@media screen and (max-width: 615px){
+@media screen and (max-width: 900px){
+  .place{
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 750px){
   .place{
     padding-bottom: 50px;
     grid-template-columns: 1fr;

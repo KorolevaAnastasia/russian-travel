@@ -1,11 +1,11 @@
-.intro__article{
+.intro__block{
   width: 690px;
   margin: 0;
   padding: 0;
 }
 
 @media screen and (max-width: 780px){
-  .intro__article{
+  .intro__block{
     width: 100%;
   }
 }

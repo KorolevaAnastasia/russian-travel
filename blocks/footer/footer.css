@@ -6,19 +6,24 @@
   padding: 0;
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 800px){
   .footer {
     max-width: calc(100% - 2 * 24px);
-    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 760px){
   .footer {
-    max-width: calc(100% - 2 * 24px);
+    max-width: calc(100% - 2 * 16px);
+  }
+}
+
+@media screen and (max-width: 730px){
+  .footer {
     display: grid;
     gap: 48px;
   }
 }
+
 
 
